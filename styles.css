@@ -1,0 +1,35 @@
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.h1 {
+    color: rebeccapurple;
+    font: 30px bold;
+  }
+  .p1 {
+    color: red;
+    font-size: 20px;
+    font-style: italic;
+  }
+  .sub1 {
+    color: burlywood;
+  }
+
+.ass02q02{
+    background-color: aqua;
+    text-align: center;
+}
+.extension{
+background-color:blanchedalmond;
+
+}
+input{
+  margin: 10px;
+  border-color: red;
+
+}
+#input-btn{
+  background-color:blueviolet;
+}

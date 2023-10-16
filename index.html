@@ -5,11 +5,65 @@
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>Page Title</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
-    <script src='main.js'></script>
+    <link rel='stylesheet' type='text/css' href='styles.css'>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="topic"></div>
-    <label for="name">Name</label>
+    <div class="q1">
+    <h1 > People Entered:</h1>
+    <h2 id="count-el">0</h2>
+    <button id="increment-btn" onclick="increment()">INCREMENT</button>
+    <div>
+    <button id="save-btn" onclick="save()"> SAVE </button></div>
+
+    <p id="save-el">Previous Entries: </p>
+</div>
+
+<div class="q1sub">
+    <img src="images/shoes-image.svg" alt="logo">
+    <p> Nike Sheo</p>
+    <button onclick='err()'>Purchase-$123</button>
+    <p id="error"></p>
+
+        <span id="num1-el"></span>
+        <span id="num2-el"></span>
+        <div>
+            <button onclick="add()">Add</button>
+            <button onclick="subtract()">Subtract</button>
+            <button onclick="divide()">Divide</button>
+            <button onclick="multiply()">multiply</button>
+        </div>
+        <div id="sum-el">Total:</div>
+    </div>
+
+
+<div class="ass02q02">
+    <div class="h1" >Blackjack</div>
+    <div class="p1" id="message-el">Want to play a round</div>
+    <div class="sub1" id = "cards-el">Cards</div>
+    <div class="sub1" id = "sum-el">Sum:</div>
+    <button onclick="startGame()">Start Game</button>
+    <button onclick="newCard()"> New Card</button>
+    <p id="para-el"></p>
+</div>
+    <button onclick="press()">Let's Try</button>
+    <p id = "greeting-el"></p>
+    <div id="apple-shelf"></div>
+    <div id="orange-shelf"></div>
+<div class="extension">
+<input type="text" id="input-el">
+<button id="input-btn" onclick="savedEl()">SAVE INPUT</button>
+</div>
+<div id="box">Open the box</div>
+<ul id="ul-el"></ul>
+<div id="container">
+</div>
+
+    <script src='demo.js'></script>
+    <script src="assignpass.js"></script>
+    <script src = 'assigncard.js'></script>
+    <script src = 'assigncal.js'></script>
+    <script src = 'assigndice.js'></script>
+    <script src="assext.js"></script>
 </body>
 </html>
